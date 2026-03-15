@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.urbanlife.mapper;
 
-import com.hmdp.entity.SeckillVoucher;
+import com.urbanlife.entity.SeckillVoucher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

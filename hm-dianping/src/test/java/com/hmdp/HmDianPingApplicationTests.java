@@ -1,12 +1,12 @@
-package com.hmdp;
+package com.urbanlife;
 
 import cn.hutool.core.collection.AvgPartition;
-import com.hmdp.entity.Shop;
-import com.hmdp.entity.VoucherOrder;
-import com.hmdp.service.impl.ShopServiceImpl;
-import com.hmdp.utils.CacheClient;
-import com.hmdp.utils.RedisIdWorker;
-import com.hmdp.service.IVoucherOrderService;
+import com.urbanlife.entity.Shop;
+import com.urbanlife.entity.VoucherOrder;
+import com.urbanlife.service.impl.ShopServiceImpl;
+import com.urbanlife.utils.CacheClient;
+import com.urbanlife.utils.RedisIdWorker;
+import com.urbanlife.service.IVoucherOrderService;
 
 
 import com.rabbitmq.client.Channel;
@@ -36,11 +36,11 @@ import java.util.Map;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
-import static com.hmdp.utils.RedisConstants.CACHE_SHOP_KEY;
+import static com.urbanlife.utils.RedisConstants.CACHE_SHOP_KEY;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class HmDianPingApplicationTests {
+public class UrbanLifeApplicationTests {
 
     @Resource
     private CacheClient cacheClient;

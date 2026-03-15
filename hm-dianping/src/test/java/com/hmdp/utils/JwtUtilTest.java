@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.security.Keys;

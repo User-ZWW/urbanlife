@@ -1,4 +1,4 @@
-package com.hmdp.config;
+package com.urbanlife.config;
 
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;

@@ -1,12 +1,12 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Voucher;
-import com.hmdp.mapper.VoucherMapper;
-import com.hmdp.entity.SeckillVoucher;
-import com.hmdp.service.ISeckillVoucherService;
-import com.hmdp.service.IVoucherService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.Voucher;
+import com.urbanlife.mapper.VoucherMapper;
+import com.urbanlife.entity.SeckillVoucher;
+import com.urbanlife.service.ISeckillVoucherService;
+import com.urbanlife.service.IVoucherService;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 import java.util.List;
 
-import static com.hmdp.utils.RedisConstants.SECKILL_STOCK_KEY;
+import static com.urbanlife.utils.RedisConstants.SECKILL_STOCK_KEY;
 
 /**
  * <p>

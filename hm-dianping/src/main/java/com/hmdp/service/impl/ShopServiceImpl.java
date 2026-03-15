@@ -1,4 +1,4 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
@@ -6,14 +6,14 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.github.benmanes.caffeine.cache.Cache;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Shop;
-import com.hmdp.mapper.ShopMapper;
-import com.hmdp.service.IShopService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.Shop;
+import com.urbanlife.mapper.ShopMapper;
+import com.urbanlife.service.IShopService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.utils.CacheClient;
-import com.hmdp.utils.RedisData;
-import com.hmdp.utils.SystemConstants;
+import com.urbanlife.utils.CacheClient;
+import com.urbanlife.utils.RedisData;
+import com.urbanlife.utils.SystemConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.Cacheable;
@@ -34,7 +34,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import static com.hmdp.utils.RedisConstants.*;
+import static com.urbanlife.utils.RedisConstants.*;
 
 /**
  * <p>

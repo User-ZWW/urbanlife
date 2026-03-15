@@ -8,11 +8,11 @@
         <version>2.3.12.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hmdp</groupId>
-    <artifactId>hm-dianping</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>hm-dianping</name>
-    <description>Demo project for Spring Boot</description>
+    <groupId>com.urbanlife</groupId>
+    <artifactId>urbanlife</artifactId>
+    <version>1.0.0</version>
+    <name>urbanlife</name>
+    <description>UrbanLife 本地生活服务平台</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

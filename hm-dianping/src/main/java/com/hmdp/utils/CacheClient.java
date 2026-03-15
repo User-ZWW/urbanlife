@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
@@ -16,8 +16,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 
-import static com.hmdp.utils.RedisConstants.CACHE_NULL_TTL;
-import static com.hmdp.utils.RedisConstants.LOCK_SHOP_KEY;
+import static com.urbanlife.utils.RedisConstants.CACHE_NULL_TTL;
+import static com.urbanlife.utils.RedisConstants.LOCK_SHOP_KEY;
 
 @Slf4j
 @Component

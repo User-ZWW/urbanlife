@@ -1,4 +1,4 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.bean.copier.CopyOptions;
@@ -6,19 +6,19 @@ import cn.hutool.core.util.RandomUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.hmdp.constant.JwtClaimsConstant;
-import com.hmdp.dto.LoginFormDTO;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.PageResult;
-import com.hmdp.entity.User;
-import com.hmdp.mapper.UserMapper;
-import com.hmdp.properties.JwtProperties;
-import com.hmdp.service.IUserService;
-import com.hmdp.utils.JwtUtil;
-import com.hmdp.utils.RegexUtils;
+import com.urbanlife.constant.JwtClaimsConstant;
+import com.urbanlife.dto.LoginFormDTO;
+import com.urbanlife.dto.Result;
+import com.urbanlife.dto.UserDTO;
+import com.urbanlife.entity.PageResult;
+import com.urbanlife.entity.User;
+import com.urbanlife.mapper.UserMapper;
+import com.urbanlife.properties.JwtProperties;
+import com.urbanlife.service.IUserService;
+import com.urbanlife.utils.JwtUtil;
+import com.urbanlife.utils.RegexUtils;
 
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.utils.UserHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.BitFieldSubCommands;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -34,8 +34,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import static com.hmdp.utils.RedisConstants.*;
-import static com.hmdp.utils.SystemConstants.USER_NICK_NAME_PREFIX;
+import static com.urbanlife.utils.RedisConstants.*;
+import static com.urbanlife.utils.SystemConstants.USER_NICK_NAME_PREFIX;
 
 /**
  * <p>

@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.urbanlife.mapper;
 
-import com.hmdp.entity.Follow;
+import com.urbanlife.entity.Follow;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

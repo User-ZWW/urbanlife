@@ -1,6 +1,6 @@
-package com.hmdp.service;
+package com.urbanlife.service;
 
-import com.hmdp.entity.BlogComments;
+import com.urbanlife.entity.BlogComments;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

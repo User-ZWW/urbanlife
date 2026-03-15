@@ -1,15 +1,15 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.SeckillVoucher;
-import com.hmdp.entity.VoucherOrder;
-import com.hmdp.mapper.VoucherOrderMapper;
-import com.hmdp.service.ISeckillVoucherService;
-import com.hmdp.service.IVoucherOrderService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.SeckillVoucher;
+import com.urbanlife.entity.VoucherOrder;
+import com.urbanlife.mapper.VoucherOrderMapper;
+import com.urbanlife.service.ISeckillVoucherService;
+import com.urbanlife.service.IVoucherOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.utils.RedisIdWorker;
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.utils.RedisIdWorker;
+import com.urbanlife.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.checkerframework.checker.units.qual.C;
 import org.redisson.api.RLock;

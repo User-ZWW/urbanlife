@@ -1,6 +1,6 @@
-package com.hmdp.service;
+package com.urbanlife.service;
 
-import com.hmdp.entity.SeckillVoucher;
+import com.urbanlife.entity.SeckillVoucher;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

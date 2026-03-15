@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 import java.net.InetSocketAddress;
 import java.util.List;

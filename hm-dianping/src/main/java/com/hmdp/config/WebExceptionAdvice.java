@@ -1,6 +1,6 @@
-package com.hmdp.config;
+package com.urbanlife.config;
 
-import com.hmdp.dto.Result;
+import com.urbanlife.dto.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

@@ -1,6 +1,6 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
-import com.hmdp.dto.UserDTO;
+import com.urbanlife.dto.UserDTO;
 
 public class UserHolder {
     private static final ThreadLocal<UserDTO> tl = new ThreadLocal<>();

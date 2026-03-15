@@ -1,7 +1,7 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
-import com.hmdp.entity.User;
-import com.hmdp.service.IUserService;
+import com.urbanlife.entity.User;
+import com.urbanlife.service.IUserService;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -21,7 +21,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 
 import java.util.List;
-import com.hmdp.entity.PageResult;
+import com.urbanlife.entity.PageResult;
 
 @SpringBootTest
 public class UserLoginBatch {

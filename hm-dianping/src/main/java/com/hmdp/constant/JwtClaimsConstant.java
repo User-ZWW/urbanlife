@@ -1,4 +1,4 @@
-package com.hmdp.constant;
+package com.urbanlife.constant;
 
 public class JwtClaimsConstant {
 

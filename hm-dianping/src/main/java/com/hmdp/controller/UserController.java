@@ -1,15 +1,15 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
-import com.hmdp.dto.LoginFormDTO;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.PageResult;
-import com.hmdp.entity.User;
-import com.hmdp.entity.UserInfo;
-import com.hmdp.service.IUserInfoService;
-import com.hmdp.service.IUserService;
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.dto.LoginFormDTO;
+import com.urbanlife.dto.Result;
+import com.urbanlife.dto.UserDTO;
+import com.urbanlife.entity.PageResult;
+import com.urbanlife.entity.User;
+import com.urbanlife.entity.UserInfo;
+import com.urbanlife.service.IUserInfoService;
+import com.urbanlife.service.IUserService;
+import com.urbanlife.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import cn.hutool.core.bean.BeanUtil;

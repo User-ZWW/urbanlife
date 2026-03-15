@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Voucher;
-import com.hmdp.service.IVoucherService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.Voucher;
+import com.urbanlife.service.IVoucherService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

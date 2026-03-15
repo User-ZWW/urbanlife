@@ -1,4 +1,4 @@
-package com.hmdp.entity;
+package com.urbanlife.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

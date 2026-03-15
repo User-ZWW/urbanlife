@@ -1,8 +1,8 @@
-package com.hmdp.interceptor;
+package com.urbanlife.interceptor;
 
-import com.hmdp.constant.JwtClaimsConstant;
-import com.hmdp.utils.JwtUtil;
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.constant.JwtClaimsConstant;
+import com.urbanlife.utils.JwtUtil;
+import com.urbanlife.utils.UserHolder;
 import io.jsonwebtoken.Claims;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
-import com.hmdp.dto.UserDTO;
-import static com.hmdp.utils.RedisConstants.*;
+import com.urbanlife.dto.UserDTO;
+import static com.urbanlife.utils.RedisConstants.*;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import com.hmdp.properties.JwtProperties;
+import com.urbanlife.properties.JwtProperties;
 
 
 public class RefreshTokenInterceptor implements HandlerInterceptor {

@@ -1,7 +1,7 @@
-package com.hmdp.listener;
+package com.urbanlife.listener;
 
-import com.hmdp.entity.VoucherOrder;
-import com.hmdp.service.IVoucherOrderService;
+import com.urbanlife.entity.VoucherOrder;
+import com.urbanlife.service.IVoucherOrderService;
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.ExchangeTypes;

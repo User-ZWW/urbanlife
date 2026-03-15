@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 public interface ILock {
     /**

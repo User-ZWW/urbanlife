@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 import cn.hutool.core.lang.UUID;
 import org.springframework.core.io.ClassPathResource;

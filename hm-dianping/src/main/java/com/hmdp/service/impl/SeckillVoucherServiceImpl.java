@@ -1,8 +1,8 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
-import com.hmdp.entity.SeckillVoucher;
-import com.hmdp.mapper.SeckillVoucherMapper;
-import com.hmdp.service.ISeckillVoucherService;
+import com.urbanlife.entity.SeckillVoucher;
+import com.urbanlife.mapper.SeckillVoucherMapper;
+import com.urbanlife.service.ISeckillVoucherService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

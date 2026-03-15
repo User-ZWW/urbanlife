@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.urbanlife.mapper;
 
-import com.hmdp.entity.User;
+import com.urbanlife.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

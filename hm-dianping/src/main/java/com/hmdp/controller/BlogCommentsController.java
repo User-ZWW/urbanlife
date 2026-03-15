@@ -1,4 +1,4 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

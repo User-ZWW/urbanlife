@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.ShopType;
-import com.hmdp.service.IShopTypeService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.ShopType;
+import com.urbanlife.service.IShopTypeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

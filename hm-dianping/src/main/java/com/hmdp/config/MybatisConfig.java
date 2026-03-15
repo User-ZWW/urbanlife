@@ -1,4 +1,4 @@
-package com.hmdp.config;
+package com.urbanlife.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;

@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
-import com.hmdp.dto.Result;
-import com.hmdp.utils.SystemConstants;
+import com.urbanlife.dto.Result;
+import com.urbanlife.utils.SystemConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

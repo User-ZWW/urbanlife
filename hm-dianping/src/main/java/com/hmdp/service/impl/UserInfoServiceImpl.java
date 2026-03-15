@@ -1,8 +1,8 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
-import com.hmdp.entity.UserInfo;
-import com.hmdp.mapper.UserInfoMapper;
-import com.hmdp.service.IUserInfoService;
+import com.urbanlife.entity.UserInfo;
+import com.urbanlife.mapper.UserInfoMapper;
+import com.urbanlife.service.IUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

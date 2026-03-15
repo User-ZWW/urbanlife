@@ -1,8 +1,8 @@
-package com.hmdp.config;
+package com.urbanlife.config;
 
-import com.hmdp.properties.JwtProperties;
-import com.hmdp.interceptor.LoginInterceptor;
-import com.hmdp.interceptor.RefreshTokenInterceptor;
+import com.urbanlife.properties.JwtProperties;
+import com.urbanlife.interceptor.LoginInterceptor;
+import com.urbanlife.interceptor.RefreshTokenInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.StringRedisTemplate;

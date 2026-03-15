@@ -1,7 +1,7 @@
-package com.hmdp.service;
+package com.urbanlife.service;
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Shop;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.Shop;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

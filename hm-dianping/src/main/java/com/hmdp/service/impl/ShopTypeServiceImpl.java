@@ -1,11 +1,11 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.ShopType;
-import com.hmdp.mapper.ShopTypeMapper;
-import com.hmdp.service.IShopTypeService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.entity.ShopType;
+import com.urbanlife.mapper.ShopTypeMapper;
+import com.urbanlife.service.IShopTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.hmdp.utils.RedisConstants.CACHE_SHOP_TYPE_KEY;
+import static com.urbanlife.utils.RedisConstants.CACHE_SHOP_TYPE_KEY;
 
 /**
  * <p>

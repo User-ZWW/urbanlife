@@ -1,10 +1,10 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.hmdp.dto.Result;
-import com.hmdp.service.IVoucherOrderService;
-import com.hmdp.service.IVoucherService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.service.IVoucherOrderService;
+import com.urbanlife.service.IVoucherService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

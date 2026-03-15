@@ -1,4 +1,4 @@
-package com.hmdp.config;
+package com.urbanlife.config;
 
 import com.rabbitmq.client.ConnectionFactory;
 import lombok.AllArgsConstructor;

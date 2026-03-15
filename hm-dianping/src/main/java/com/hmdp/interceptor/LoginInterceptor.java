@@ -1,6 +1,6 @@
-package com.hmdp.interceptor;
+package com.urbanlife.interceptor;
 
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.utils.UserHolder;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;

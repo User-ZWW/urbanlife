@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.urbanlife.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.service.IFollowService;
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.dto.Result;
+import com.urbanlife.service.IFollowService;
+import com.urbanlife.utils.UserHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;

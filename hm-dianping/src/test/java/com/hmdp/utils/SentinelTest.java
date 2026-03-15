@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.urbanlife.utils;
 
 
 import com.alibaba.csp.sentinel.Entry;

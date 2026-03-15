@@ -1,21 +1,21 @@
-package com.hmdp.service.impl;
+package com.urbanlife.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.ScrollResult;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.Blog;
-import com.hmdp.entity.Follow;
-import com.hmdp.entity.User;
-import com.hmdp.mapper.BlogMapper;
-import com.hmdp.service.IBlogService;
+import com.urbanlife.dto.Result;
+import com.urbanlife.dto.ScrollResult;
+import com.urbanlife.dto.UserDTO;
+import com.urbanlife.entity.Blog;
+import com.urbanlife.entity.Follow;
+import com.urbanlife.entity.User;
+import com.urbanlife.mapper.BlogMapper;
+import com.urbanlife.service.IBlogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.service.IFollowService;
-import com.hmdp.utils.SystemConstants;
-import com.hmdp.utils.UserHolder;
+import com.urbanlife.service.IFollowService;
+import com.urbanlife.utils.SystemConstants;
+import com.urbanlife.utils.UserHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ZSetOperations;
@@ -29,8 +29,8 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
-import static com.hmdp.utils.RedisConstants.BLOG_LIKED_KEY;
-import static com.hmdp.utils.RedisConstants.FEED_KEY;
+import static com.urbanlife.utils.RedisConstants.BLOG_LIKED_KEY;
+import static com.urbanlife.utils.RedisConstants.FEED_KEY;
 
 /**
  * <p>

@@ -1,7 +1,7 @@
-package com.hmdp.cache.handler;
+package com.urbanlife.cache.handler;
 
 import com.github.benmanes.caffeine.cache.Cache;
-import com.hmdp.entity.Shop;
+import com.urbanlife.entity.Shop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import top.javatool.canal.client.annotation.CanalTable;
@@ -9,7 +9,7 @@ import top.javatool.canal.client.handler.EntryHandler;
 
 import javax.annotation.Resource;
 
-import static com.hmdp.utils.RedisConstants.CACHE_SHOP_KEY;
+import static com.urbanlife.utils.RedisConstants.CACHE_SHOP_KEY;
 
 @CanalTable(value = "tb_shop")
 @Component

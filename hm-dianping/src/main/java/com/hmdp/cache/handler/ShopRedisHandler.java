@@ -1,11 +1,11 @@
-package com.hmdp.cache.handler;
+package com.urbanlife.cache.handler;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.github.benmanes.caffeine.cache.Cache;
-import com.hmdp.entity.Shop;
-import com.hmdp.service.IShopService;
+import com.urbanlife.entity.Shop;
+import com.urbanlife.service.IShopService;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.List;
 
-import static com.hmdp.utils.RedisConstants.CACHE_SHOP_KEY;
+import static com.urbanlife.utils.RedisConstants.CACHE_SHOP_KEY;
 
 @Component
 public class ShopRedisHandler implements InitializingBean {

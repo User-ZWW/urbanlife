@@ -1,6 +1,6 @@
-package com.hmdp.service;
+package com.urbanlife.service;
 
-import com.hmdp.entity.UserInfo;
+import com.urbanlife.entity.UserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

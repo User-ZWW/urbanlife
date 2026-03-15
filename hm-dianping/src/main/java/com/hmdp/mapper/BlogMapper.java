@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.urbanlife.mapper;
 
-import com.hmdp.entity.Blog;
+import com.urbanlife.entity.Blog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
